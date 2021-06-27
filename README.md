@@ -12,12 +12,12 @@ Balanced accuracy score:
 Precision score:
 Recall scorce:
 
-![RandomOverSampler_Accuracy.png](images/RandomOverSampler_Accuracy.png)
-![RandomOverSampler_Report.png](images/RandomOverSampler_Report.png)
+![RandomOverSampler_Accuracy.png](Images/RandomOverSampler_Accuracy.png)
+![RandomOverSampler_Report.png](Images/RandomOverSampler_Report.png)
 
 * Oversample with SMOTE algorithm
-![SMOTE_Accuracy.png](images/SMOTE_Accuracy.png)
-![SMOTE_Report.png](images/SMOTE_Report.png)
+![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
+![SMOTE_Report.png](Images/SMOTE_Report.png)
 Balanced accuracy score:
 Precision score:
 Recall scorce:
@@ -27,32 +27,32 @@ Balanced accuracy score:
 Precision score:
 Recall scorce:
 
-![ClusterCentroids_Accuracy.png](images/ClusterCentroids_Accuracy.png)
-![ClusterCentroids_Report.png](images/ClusterCentroids_Report.png)
+![ClusterCentroids_Accuracy.png](Images/ClusterCentroids_Accuracy.png)
+![ClusterCentroids_Report.png](Images/ClusterCentroids_Report.png)
 
 * Over and undersampling with SMOTEENN algorithm
 Balanced accuracy score:
 Precision score:
 Recall scorce:
 
-![SMOTE_Accuracy.png](images/SMOTE_Accuracy.png)
-![SMOTE_Report.png](images/SMOTE_Report.png)
+![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
+![SMOTE_Report.png](Images/SMOTE_Report.png)
 
 * Reduce bias with BalancedRandomForestClassifier
 Balanced accuracy score:
 Precision score:
 Recall scorce:
 
-![BalancedRandomForest_Accuracy](images/BalancedRandomForest_Accuracy.png)
-![BalancedRandomForest_Report](images/BalancedRandomForest_Report.png)
+![BalancedRandomForest_Accuracy](Images/BalancedRandomForest_Accuracy.png)
+![BalancedRandomForest_Report](Images/BalancedRandomForest_Report.png)
 
 * Reduce bias with EasyEnsembleClassifier
 Balanced accuracy score:
 Precision score:
 Recall scorce:
 
-![EasyEnsemble_Accuracy](images/EasyEnsemble_Accuracy.png)
-![EasyEnsemble_Report](images/EasyEnsemble_Report.png)
+![EasyEnsemble_Accuracy](Images/EasyEnsemble_Accuracy.png)
+![EasyEnsemble_Report](Images/EasyEnsemble_Report.png)
 
 ## Summary
 
