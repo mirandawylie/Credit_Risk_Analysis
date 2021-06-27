@@ -7,49 +7,47 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Results
 ### Using resampling, the imbalanced-learn and scikit-learn libraries were used to build and evaluate the following six machine learning models:
 
-* Oversample with RandomOverSampler algorithm
+1. Oversample with RandomOverSampler algorithm
     * Balanced accuracy score: 64
     * Precision score (avg): .99
-    * Recall scorce (avg): .62
+    * Recall score (avg): .62
 ![RandomOverSampler_Accuracy.png](Images/RandomOverSampler_Accuracy.png)
 ![RandomOverSampler_Report.png](Images/RandomOverSampler_Report.png)
 
-* Oversample with SMOTE algorithm
+2.  Oversample with SMOTE algorithm
     * Balanced accuracy score: 65
     * Precision score (avg): .99
-    * Recall scorce (avg): .69
+    * Recall score (avg): .69
 ![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
 ![SMOTE_Report.png](Images/SMOTE_Report.png)
 
-* Undersample with ClusterCentroids algorithm
+3. Undersample with ClusterCentroids algorithm
     * Balanced accuracy score: 55
     * Precision score (avg): .99
-    * Recall scorce (avg): .40
+    * Recall score (avg): .40
 ![ClusterCentroids_Accuracy.png](Images/ClusterCentroids_Accuracy.png)
 ![ClusterCentroids_Report.png](Images/ClusterCentroids_Report.png)
 
-* Over and undersampling with SMOTEENN algorithm
+4. Over and undersampling with SMOTEENN algorithm
     * Balanced accuracy score: 65
     * Precision score (avg): .99
-    * Recall scorce (avg): .69
+    * Recall score (avg): .69
 ![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
 ![SMOTE_Report.png](Images/SMOTE_Report.png)
 
-* Reduce bias with BalancedRandomForestClassifier
+5. Reduce bias with BalancedRandomForestClassifier
     * Balanced accuracy score: .79
     * Precision score (avg): .99
-    * Recall scorce (avg): .87 
+    * Recall score (avg): .87 
 ![BalancedRandomForest_Accuracy](Images/BalancedRandomForest_Accuracy.png)
 ![BalancedRandomForest_Report](Images/BalancedRandomForest_Report.png)
 
-* Reduce bias with EasyEnsembleClassifier
+6. Reduce bias with EasyEnsembleClassifier
     * Balanced accuracy score: .93
     * Precision score (avg): .99
-    * Recall scorce (avg): .94
+    * Recall score (avg): .94
 ![EasyEnsemble_Accuracy](Images/EasyEnsemble_Accuracy.png)
 ![EasyEnsemble_Report](Images/EasyEnsemble_Report.png)
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning. 
-
+With a balanced accuracy of .93, the EasyEnsembleClassifier machine learning is the clear winner in terms of the best accuracy. The sensitivity of correctly predicted outcomes, or the recall score, ranking from high to low is as follows: EasyEnsembleClassifier, EasyEnsembleClassifier, BalancedRandomForestClassifier, SMOTEENN, SMOTE, RandomOverSampler, ClusterCentroids. Less variance is found in the percision score as each model had score of .99. Based on this reporting, to predict credit risk, I recommend the EasyEnsembleClassifier machine learning for the balanced accuracy score, precision score, and recall score.
