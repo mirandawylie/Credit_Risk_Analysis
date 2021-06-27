@@ -8,44 +8,44 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ### Using resampling, the imbalanced-learn and scikit-learn libraries were used to build and evaluate the following six machine learning models:
 
 * Oversample with RandomOverSampler algorithm
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: 64
+    * Precision score (avg): .99
+    * Recall scorce (avg): .62
 ![RandomOverSampler_Accuracy.png](Images/RandomOverSampler_Accuracy.png)
 ![RandomOverSampler_Report.png](Images/RandomOverSampler_Report.png)
 
 * Oversample with SMOTE algorithm
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: 65
+    * Precision score (avg): .99
+    * Recall scorce (avg): .69
 ![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
 ![SMOTE_Report.png](Images/SMOTE_Report.png)
 
 * Undersample with ClusterCentroids algorithm
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: 55
+    * Precision score (avg): .99
+    * Recall scorce (avg): .40
 ![ClusterCentroids_Accuracy.png](Images/ClusterCentroids_Accuracy.png)
 ![ClusterCentroids_Report.png](Images/ClusterCentroids_Report.png)
 
 * Over and undersampling with SMOTEENN algorithm
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: 65
+    * Precision score (avg): .99
+    * Recall scorce (avg): .69
 ![SMOTE_Accuracy.png](Images/SMOTE_Accuracy.png)
 ![SMOTE_Report.png](Images/SMOTE_Report.png)
 
 * Reduce bias with BalancedRandomForestClassifier
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: .79
+    * Precision score (avg): .99
+    * Recall scorce (avg): .87 
 ![BalancedRandomForest_Accuracy](Images/BalancedRandomForest_Accuracy.png)
 ![BalancedRandomForest_Report](Images/BalancedRandomForest_Report.png)
 
 * Reduce bias with EasyEnsembleClassifier
-    * Balanced accuracy score:
-    * Precision score:
-    * Recall scorce:
+    * Balanced accuracy score: .93
+    * Precision score (avg): .99
+    * Recall scorce (avg): .94
 ![EasyEnsemble_Accuracy](Images/EasyEnsemble_Accuracy.png)
 ![EasyEnsemble_Report](Images/EasyEnsemble_Report.png)
 
